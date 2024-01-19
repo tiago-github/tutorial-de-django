@@ -8,12 +8,10 @@
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
-        <!--método 1 com dependeicia do template polls
-        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
-        -->
-        <!--método 2 sem dependeicia do template polls
-        <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
-        -->
+        <!--método 1 com dependeicia do template polls-->
+        <!--<li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>-->
+        <!--método 2 sem dependeicia do template polls-->
+        <!--<li><a href="{<percent> url 'detail' question.id %}">{{ question.question_text }}</a></li>-->
         <!--método 3 passando o nome do app em urls-->
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
