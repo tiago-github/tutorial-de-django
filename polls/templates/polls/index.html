@@ -5,6 +5,10 @@
     <title>Title</title>
 </head>
 <body>
+<!--{static}STATIC_URLstatic-->
+{% load static %}
+<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
@@ -17,7 +21,7 @@
     {% endfor %}
     </ul>
 {% else %}
-    <p>Nenhuma enquete está disponível.</p>
+    <p>Não há enquetes disponíveis.</p>
 {% endif %}
 </body>
 </html>
