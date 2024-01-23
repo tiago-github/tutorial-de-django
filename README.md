@@ -1,6 +1,6 @@
 # Estudando Django
 
-## Documentação Oficial - Concluído 4 de 8
+## Seguindo a Documentação Oficial
 
 ### Visão Geral do Django
 
@@ -20,7 +20,7 @@
 - Instalando Django;
 - Verificando a instalação. 
 
-### Tutorial - Escrevendo um app em Django
+### Tutorial - Escrevendo um app em Django (Concluído 8 de 8)
 
 - Tutorial - Parte 01 
   - Criando um projeto;
@@ -49,4 +49,25 @@
   - Removendo URLs codificados nos templates;
   - Namespacing nomes de URL;
 - Tutorial - Parte 4
-  - Crie um formulário simples.
+  - Crie um formulário simples;
+  - Use views genéricas: menos código é melhor.
+- Tutorial - Parte 5
+  - Apresentando testes automatizados
+  - Estratégias básicas de testes
+  - Escrevendo nosso primeiro teste
+  - Teste a View
+  - Quando estiver testando mais é melhor
+  - Mais testes
+- Tutorial - Parte 6
+  - Personalize a aparência da sua aplicação
+  - Adicionar uma imagem de fundo
+- Tutorial - Parte 7
+  - Personalize o formulário do site de administração
+  - Adicionando objetos relacionados
+  - Personalize a listagem da página de administração
+  - Personalize a aparência do site de administração
+  - Personalize a página inicial do site de administração
+- Tutorial - Parte 8
+  - Instalando a barra de ferramentas de depuração do Django
+  - Obter ajuda de outras pessoas
+  - Instalação de outros pacotes de terceiros
